@@ -7,14 +7,39 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Gotenberg Hyphens Test</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      body p {
+      body * {
         hyphens: auto;
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
         -ms-hyphens: auto;
         max-width: 390px;
         text-align: justify;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+      }
+      .roboto-<uniquifier > {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings: "wdth" <width>;
       }
     </style>
   </head>
